@@ -1,7 +1,7 @@
 {
   "name": "demo",
   "version": "0.1.0",
-  "private": true,
+  "description": "An app to add boilerplate unit tests for use in React Redux Applications",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
@@ -30,5 +30,13 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "enzyme": "^3.11.0",
+    "enzyme-adapter-react-16": "^1.15.2",
+    "jest-enzyme": "^7.1.2"
+  },
+  "repository": {
+    "url": "https://github.com/mojaray2k/react-unit-test-boilerplates.git"
   }
 }
